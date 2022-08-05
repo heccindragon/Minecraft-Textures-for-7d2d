@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<uvmapping>
+
+<!--ADDITIONAL-->
+<!-- if you want to add your own textures, start at 781. 
+I don't believe there is a limit to the number of textures added, but have not tested it.
+blockw and blockh will always be 8, regardless of what you enter here. 
+Enter your texture name from unity as the Texture-->
+	<uv id="2081" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="oreBlockLead.png"/>
+	<uv id="2082" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="dirt" texture="mcclay.png"/>
+	<uv id="2083" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mccoal_ore.png"/>
+	<uv id="2084" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcdiamond_ore.png"/>
+	<uv id="2085" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="dirt" texture="mcdirt.png"/>
+	<uv id="2086" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="dirt" texture="mcgravel.png"/>
+	<uv id="2087" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mciron_ore.png"/>
+	<uv id="2088" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mctitanium_ore.png"/>
+	<uv id="2089" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcgold_ore.png"/>
+	<uv id="2090" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcpotassium_nitrate.png"/>
+	<uv id="2091" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcoil_shale.png"/>
+	<uv id="2092" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="dirt" texture="mcsand.png"/>
+	<uv id="2093" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcsandstone.png"/>
+	<uv id="2094" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcsilver_ore"/>
+	<uv id="2095" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="dirt" texture="mcsnow.png"/>
+	<uv id="2096" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcstone.png"/>
+	<uv id="2097" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="0.2588235,0.2705882,0.1921569" globaluv="True" index="0" material="stone" texture="mcbedrock.png"/>
+	<uv id="2098" x="34" y="34" w="247" h="247" blockw="8" blockh="8" color="1,1,1" globaluv="True" index="0" material="dirt" texture="mcgrass.png"/>
+	
+	</uvmapping>
