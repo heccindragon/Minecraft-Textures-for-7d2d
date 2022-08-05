@@ -1,0 +1,117 @@
+<Mod>
+
+	<set xpath="/recipes/upgrade/entry/@prob">1.0</set>
+	
+	<append xpath="/recipes">
+	
+<recipe name="ulmResourceAdhesive" time="5" area="ulmStationChemistry_1">
+	<ingredient name="ulmResourceScrapRubber" count="10"/>
+	<ingredient name="ulmResourceResin" count="5"/>
+	<ingredient name="resourceGlue"/> 
+</recipe>
+
+<recipe name="resourceAcid" always_unlocked="true" time="10" area="ulmStationChemistry_1">
+	<ingredient name="resourceCoal" count="5"/>
+	<ingredient name="drinkJarBoiledWater" count="1" />
+	<output name="drinkJarEmpty"/> 
+</recipe>
+
+<recipe name="resourceAcid" always_unlocked="true" time="10" area="ulmStationChemistry_1">
+	<ingredient name="ulmResourceCharcoal" count="10"/>
+	<ingredient name="drinkJarBoiledWater" count="1" />
+	<output name="drinkJarEmpty"/> 
+</recipe>
+
+<recipe name="resourceAcid" always_unlocked="true" time="10" area="ulmStationChemistry_1">
+	<ingredient name="ulmResourceCharcoal" count="10"/>
+	<ingredient name="ulmDrinkPlasticBottleBoiledWater" count="1" />
+	<output name="ulmDrinkPlasticBottleEmpty"/> 
+</recipe>
+
+<recipe name="resourceAcid" always_unlocked="true" time="10" area="ulmStationChemistry_1">
+	<ingredient name="resourceCoal" count="5"/>
+	<ingredient name="ulmDrinkPlasticBottleBoiledWater" count="1" />
+	<output name="ulmDrinkPlasticBottleEmpty"/> 
+</recipe>
+
+<recipe name="ulmResourceElectronicCopperCoil" time="10" area="ulmStationWorkbench_2">
+	<ingredient name="ulmResourceScrapWires" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="1"/> 
+</recipe>
+
+<recipe name="ulmResourceScrapWires" time="5" count="10" area="ulmStationForge_1">
+	<ingredient name="ulmResourceIngotCopper" count="1"/> 
+</recipe>
+
+<recipe name="resourceScrapPolymers" time="5" count="4" area="ulmStationChemistry_1">
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<output name="drinkJarEmpty"/> 
+</recipe>
+
+<recipe name="ceilingLight01_player" count="1" craft_area="ulmStationWorkbench_1">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+</recipe>
+
+<recipe name="industrialLight01_player" count="1" craft_area="ulmStationWorkbench_1">
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+</recipe>
+
+<recipe name="industrialLight02_player" count="1" craft_area="ulmStationWorkbench_1"> 
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+</recipe>
+
+	</append>
+
+	<append xpath="/recipes/recipe[@name='resourcePaper']">
+		<output name="drinkJarEmpty" count="1"/>
+
+	</append>
+	
+	<append xpath="/recipes/recipe[@name='resourceGlue']">
+		<output name="ulmDrinkPlasticBottleEmpty" count="1" />
+		
+	</append>
+	
+	
+
+		
+		
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='gunShotgunT1DoubleBarrelParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='armorMilitarySetParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='gunExplosivesT3RocketLauncherParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='meleeToolAxeT3ChainsawParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='gunBotRoboticsParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='gunHandgunT1PistolParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='gunMGT1AK47Parts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='gunRifleT1HuntingRifleParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='ulmResourcePartsSMG']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='gunBowT1WoodenBowParts']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='resourceTestosteroneExtract']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='resourceCropCottonPlant']" />
+	<remove xpath="/recipes/upgrade/entry/ingredient[@name='resourceAnimalFat']" />
+	
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[1]/ingredient[@name='resourceRawDiamond']" name="count">1</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[2]/ingredient[@name='resourceRawDiamond']" name="count">2</setattribute>
+    <setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[3]/ingredient[@name='resourceRawDiamond']" name="count">4</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[4]/ingredient[@name='resourceRawDiamond']" name="count">6</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[5]/ingredient[@name='resourceRawDiamond']" name="count">8</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[6]/ingredient[@name='resourceRawDiamond']" name="count">12</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[7]/ingredient[@name='resourceRawDiamond']" name="count">16</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[8]/ingredient[@name='resourceRawDiamond']" name="count">20</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_BlessedMetal']/entry[9]/ingredient[@name='resourceRawDiamond']" name="count">24</setattribute>
+    <setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[1]/ingredient[@name='resourceRawDiamond']" name="count">1</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[2]/ingredient[@name='resourceRawDiamond']" name="count">2</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[3]/ingredient[@name='resourceRawDiamond']" name="count">4</setattribute>  
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[4]/ingredient[@name='resourceRawDiamond']" name="count">6</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[5]/ingredient[@name='resourceRawDiamond']" name="count">8</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[6]/ingredient[@name='resourceRawDiamond']" name="count">12</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[7]/ingredient[@name='resourceRawDiamond']" name="count">16</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[8]/ingredient[@name='resourceRawDiamond']" name="count">20</setattribute>
+	<setattribute xpath="/recipes/upgrade[@group='MG_DiamondTip']/entry[9]/ingredient[@name='resourceRawDiamond']" name="count">24</setattribute>
+
+
+</Mod> 
