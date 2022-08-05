@@ -1,0 +1,103 @@
+<Mod>
+	<remove xpath="lootcontainers/lootgroup[@name='groupAmmoRegular']">
+	</remove>
+	<insertAfter xpath="lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
+		<lootgroup name="groupAmmoRegular">
+		<item group="groupAmmoRegularT0" prob="0.06"/>
+		<item group="groupAmmoRegularT1" loot_prob_template="ProbT1"/>
+		<item group="groupAmmoRegularT2" loot_prob_template="ProbT2"/>
+		<item group="groupAmmoAdvanced" loot_prob_template="ProbT3"/>
+		</lootgroup>
+	</insertAfter>
+	<!-- UL AP and HP additions -->
+	<append xpath="lootcontainers/lootgroup[@name='group9mmSmall']">
+		<item name="ammo9mmBulletAP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo9mmBulletHP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group9mmMedium']">
+		<item name="ammo9mmBulletAP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo9mmBulletHP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group9mmLarge']">
+		<item name="ammo9mmBulletAP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo9mmBulletHP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='group10mmSmall']">
+		<item name="ulmAmmo10mmRoundAP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo10mmRoundHP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group10mmMedium']">
+		<item name="ulmAmmo10mmRoundAP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo10mmRoundHP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group10mmLarge']">
+		<item name="ulmAmmo10mmRoundAP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo10mmRoundHP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='group762mmSmall']">
+		<item name="ammo762mmBulletAP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo762mmBulletHP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group762mmMedium']">
+		<item name="ammo762mmBulletAP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo762mmBulletHP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group762mmLarge']">
+		<item name="ammo762mmBulletAP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo762mmBulletHP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='group556mmSmall']">
+		<item name="ulmAmmo556mmRoundAP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/> 
+		<item name="ulmAmmo556mmRoundHP" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group556mmMedium']">
+		<item name="ulmAmmo556mmRoundAP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo556mmRoundHP" count="8,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group556mmLarge']">
+		<item name="ulmAmmo556mmRoundAP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo556mmRoundHP" count="12,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='group792mmSmall']">
+		<item name="ulmAmmo792mmRoundAP" count="3,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo792mmRoundHP" count="3,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group792mmMedium']">
+		<item name="ulmAmmo792mmRoundAP" count="6,9" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo792mmRoundHP" count="6,9" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group792mmLarge']">
+		<item name="ulmAmmo792mmRoundAP" count="9,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ulmAmmo792mmRoundHP" count="9,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='group44MagnumSmall']">
+		<item name="ammo44MagnumBulletAP" count="3,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo44MagnumBulletHP" count="3,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group44MagnumMedium']">
+		<item name="ammo44MagnumBulletAP" count="6,9" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo44MagnumBulletHP" count="6,9" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='group44MagnumLarge']">
+		<item name="ammo44MagnumBulletAP" count="9,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammo44MagnumBulletHP" count="9,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='groupShotgunShellSmall']">
+		<item name="ammoShotgunSlug" count="3,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammoShotgunBreachingSlug" count="2,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='groupShotgunShellMedium']">
+		<item name="ammoShotgunSlug" count="6,9" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammoShotgunBreachingSlug" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='groupShotgunShellLarge']">
+		<item name="ammoShotgunSlug" count="9,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+		<item name="ammoShotgunBreachingSlug" count="8,10" loot_stage_count_mod="0.01" loot_prob_template="ProbT2"/>
+	</append>
+		
+</Mod>
